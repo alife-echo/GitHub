@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação Abas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            float: left;
+             width : 720px
+        }
+
+        ul li {
+            float: left;
+            background: url(aba-direita.png)  no-repeat top right ;
+         
+          
+        }
+       
+        
+     
+       a{
+           background: url(aba-esquerda.png)   no-repeat top left;
+           text-decoration: none;
+           color: white ;
+           display: block;
+           padding: 0 2em;
+           line-height: 3em;
+        
+       }
+       ul a:hover{
+           color : #894a1f
+       }
+
+        ul #home{
+                background: url(aba-direita-atual.png) no-repeat top right;
+        }
+
+        ul  #home a {
+            background: url(aba-esquerda-atual.png)   no-repeat top left;
+        }
+      
+      .caixa{
+          margin-top: 100px;
+          width: 300px;
+          height: 300px;
+          border: 1px solid red;
+          background: url(aba-direita.png) no-repeat right;
+      }
+       
+    </style>
+</head>
+<body>
+    <h2>Home</h2>
+    <ul>
+        <li id="home"><a href="index.html">Home</a></li>
+        <li class="sobre"><a href="sobre.html">Sobre</a></li>
+        <li class="servicos"><a href="servicos.html">Serviçõs</a></li>
+        <li class="noticias"><a href="noticias.html">Notícias</a></li>
+        <li class=" contato"><a href="contato.html">Contato</a></li>
+    </ul>
+
+
+    <div class="caixa"></div>
+</body>
+</html>

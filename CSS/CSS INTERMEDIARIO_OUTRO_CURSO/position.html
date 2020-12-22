@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    
+    <style>
+/*
+        .static{
+            position: static;
+        }
+
+       .relativo{
+           position: relative;o postion relative é inicialmente igual ao static,mas recebe propriedade como : top:; left:; right:; bottom:;
+          
+       }
+
+       .fixed{
+           position: fixed;
+           right: 10px; o elemento sé movimenta de acordo com a proporção da tela fica sempre nas extremidades
+           quanto maior o pixel, mais ele vai ficar afastado da linha do canto esquerdo ou direto,quanto menor o pixel, mais perto ele fica da linha do canto
+            obrigatoriamete esse elemento relative tem que ser pai dele
+          
+       }
+
+        .quadrado{
+            width: 100px;
+            height: 100px;
+            display: inline-block; /* o inline não aceita width é height
+                            nesse caso use a propriedade inline-block   
+     
+        }
+        .absolute{
+            position: absolute; ele vai ficar em referencia ao pai dele nesse caso ele fico em referencia ao body
+            
+            sé o elemento estiver como static ele vai ficar em relação ao pai,mas se o elemento estiver em relative ele vai ficar em relação ao elemento relative
+           
+
+            top: 20px;
+        }
+
+        */
+        .sticky{
+            position: sticky;/* serve para fixar um conteudo em uma barra de rolagem*/
+            top: 0;
+            
+        }
+        .quadrado{
+            width: 100px;
+            height: 100px;
+            display: inline-block; /* o inline não aceita width é height
+                            nesse caso use a propriedade inline-block */  
+     
+        }
+        .rt{
+            width: 200px;
+            height: 500px;
+            margin-top: 10px;
+            overflow: auto;
+           
+        }
+
+        .bg-red{
+            background-color: red;
+        }
+
+        .bg-blue{
+            background-color: blue;
+        }
+
+        .bg-yellow{
+            background-color: rgb(228, 228, 93);
+        }
+
+        .bg-pink{
+            background-color: pink;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+<!--
+<div class=" static quadrado bg-blue">
+
+    
+
+</div>    
+
+<div class=" relativo rt bg-yellow ">
+
+<div class=" absolute quadrado bg-red"></div>
+
+</div>
+
+-->
+
+
+
+<div class="bg-blue rt">
+
+<div class="quadrado bg-red"></div>
+<div class="quadrado bg-yellow sticky"></div>
+<div class="quadrado bg-red"></div>
+<div class="quadrado bg-red"></div>
+<div class="quadrado bg-red"></div>
+<div class="quadrado bg-red"></div>
+<div class="quadrado bg-red"></div>
+<div class="quadrado bg-red"></div>
+<div class="quadrado bg-red"></div>
+<div class="quadrado bg-red"></div>
+
+
+</div>
+</body>
+
+
+</html>

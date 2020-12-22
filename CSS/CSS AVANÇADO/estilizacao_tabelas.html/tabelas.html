@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    
+    
+    <style>
+        body{
+            font-family: "Trebuchet MS",Helvetica,sans-serif;
+        }
+
+
+
+        table{
+            width: 600px;
+            border-collapse: separate;
+            /* separate = faz com as bordas tenham um 2ps de distancia
+               collapse = faz com que as bordas fiquem mais juntas com 1px de distancia
+            */
+
+        }
+
+        th,td{
+ 
+            padding: 7px;
+        }
+
+
+        th{
+            text-transform: uppercase;
+            border-top:1px solid #999;
+            border-bottom: 1px solid #111;
+            text-align: left;            
+            font-size: 90%;
+            letter-spacing: 0.1em;
+            /*letter-spacing = distancia de uma letra tem um para com a outra*/
+        }
+
+     
+
+        .numero{
+            text-align: right;
+        }
+        tr:hover{
+            background-color: #c3e6e5;
+        }
+
+    </style>
+
+
+</head>
+<body>
+        <h2>Estilizando-Tabelas</h2> 
+        
+        
+        <table>
+            <tr>
+                <th>Código</th>
+                <th>Produto</th>
+                <th class="numero">Preço</th>
+            </tr>
+
+            <tr>
+                <td>001</td>
+                <td>PC GAMER</td>
+                <td class="numero">R$ 8.500</td>
+            </tr>
+            <tr class="alternado">
+                <td>002</td>
+                <td>PS5</td>
+                <td class="numero">R$ 3.500</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>CELULAR</td>
+                <td class="numero">R$ 2.100</td>
+            </tr>
+            <tr class="alternado">
+                <td>004</td>
+                <td>TELEVISÃO</td>
+                <td class="numero">R$ 5.500</td>
+            </tr>
+        </table>
+</body>
+</html>

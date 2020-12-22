@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            position: relative;
+            float: left;                        /*USE ESSA ESTILIZAÇÃO PARA CARTÃO DE VISITAS*/
+            width: 400px;
+            height: 200px;
+            border: 2px solid green;
+            text-align: center;
+        }
+
+        .card2{
+            clear: left;
+            float: left;
+            border: 2px solid red;
+            padding-left: 158px;
+            padding-right: 100px;
+            padding-bottom: 100px;
+            padding-top: 100px;
+            
+              }
+              .card2:hover{
+                box-shadow: 2px 2px 1.2px 2px    rgb(233, 203, 203)  ;
+              }
+
+
+        .c1{
+      
+            line-height: 200px;      /*metodo para para deixar o texto alinhado com o elemento*/
+            color: brown;      
+
+        
+        }
+
+
+        .c2{
+        
+            position: absolute; /* sempre quando usar o position absolute o elemento ira buscar o seu pai certfiquese que seu pai não seja static*/
+            top: 50%; /* quando usar top ou left o texto ainda ficara desalinhado use o transform translate*/
+            left: 50%;
+            transform: translate(-50%,-50%);/*transforme translante recebe dois valor, o valor (x,y) isso ira definir a posição do elemento,lembrado que você precisa do top é left nessa caso*/
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <div class="c1">
+            Álife Silva De Moraes
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="c2">
+            Álife Silva De Moraes
+        </div>
+    </div>
+
+
+    <div class="card2">
+        <div style="background-color: red;" >
+            Álife Silva De Moraes
+
+        </div>
+
+    </div>
+</body>
+</html>

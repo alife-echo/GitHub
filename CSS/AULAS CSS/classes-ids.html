@@ -1,0 +1,95 @@
+<!--
+    id = indentifica é chama  apenas um elemento,um unico id por pagina
+    class = classificações de elementos,posso estilizar varios elementos apenas com uma classe
+   
+    -->
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu site</title>
+      
+      <style type="text/css">      
+          
+          p{ /** seletor chamado p --> todos os paragrafos serão estilizados */
+              color: red; /** propriedade color com um valor chamado red  -->;--> fechar declaração */
+              
+          }
+
+          h1{/** seletor chamado h1 --> todos os titulos serão estilizados */
+              color:blue; /** propriedade color com um valor chamado blue  -->;--> fechar declaração */
+          }
+            
+          .amarelado{ /** utiliza-se o ponto " . " para criar uma classe é depois nome-a se essa classe,essa classe foi chamado de amarelado **/
+              color : rgb(6, 124, 202);
+          }
+
+          .outra_cor{/** utiliza-se o ponto " . " para criar uma classe é depois nome-a se essa classe,essa classe foi chamado de outra_cor **/
+              color: rgb(37, 116, 153);
+          }
+
+          #principal{/** utiliza-se a cerquila  ou  jogo da velha " # " para criar uma id é depois nome-a se esse id,essa id foi chamado de principal **/
+           background-color: rgb(231, 238, 231);
+          }
+
+          .flamengo{
+              width: 100px;
+              height: 100px;
+          }
+    
+        </style>    
+ 
+        <div> 
+            <div id = "cabecalho">
+                    <img src="../imagens/flamengo.png" class="flamengo">
+                    <ul>
+                        <li>HOME</li>
+                        <li>QUEM-SOMOS</li>
+                        <li>CONTATO</li>
+                    </ul>
+            </div> 
+            <div id ="conteudo-principal">
+
+            <div class="coluna">
+                coluna1
+            </div>
+
+            <div class="coluna">
+                coluna2
+            </div>
+
+            <div class="coluna">
+                coluna2
+            </div>
+
+            </div>
+        </div>
+
+
+
+
+    </head>
+    <body>
+          <h1  >Estilo CSS (CASACADING STULE SHEETS)</h1>
+           
+          <p class="outra_cor" >  <!--criei a classe outra_cor lá em cima ,agora estou chamando a classe "outra_cor" na tag paragrafo-->
+                sit amet, consectetur adipiscing elit.
+                    Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                    Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                    Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                    In dapibus ut arcu quis venenatis. Etiam at mi sed diam ornare rutrum eu nec massa.
+                    Vivamus ut egestas neque, id fermentum eros. Vestibulum ornare sem eu velit scelerisque mattis.
+            </p>    
+    
+            <p class="amarelado"> <!--criei a classe amarelado lá em cima ,agora estou chamando a classe "amarelado" na tag paragrafo-->
+                sit amet, consectetur adipiscing elit.
+                    Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                    Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                    Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                    In dapibus ut arcu quis venenatis. Etiam at mi sed diam ornare rutrum eu nec massa.
+                    Vivamus ut egestas neque, id fermentum eros. Vestibulum ornare sem eu velit scelerisque mattis.
+            </p>
+     
+    </body>
+    </html>

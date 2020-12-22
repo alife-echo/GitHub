@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="utf-8">
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            background-color: blueviolet;
+            width: 80%;
+            overflow: hidden;
+            padding: 15px;
+            margin: auto;
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        .logo{
+          float: left;
+          color: white; 
+   
+        }
+        
+        .menu{
+            float:right;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+          
+        }
+
+        li{
+           float: left;
+            color: white; 
+            margin-left: 15px;
+                   
+            }
+            
+            @media screen and (max-width: 700px){
+                 
+                 
+                 
+                    .header{
+                        background-color:gray;
+                }
+            }
+                /*media screen é usado para conserta a tela onde os elemento ficaram quebrados impedindo a visualição de um usuari que estaria vendo o elemento pelo mobile*/
+            @media screen and (max-width:500px){  /* codicação para chamar o media screen*/
+            /*Esse css será usado quando a tela estiver no maximo com 400px*/
+
+              .header{
+                  background-color: red;
+              }
+                .logo{
+                    float: none;
+                    text-align: center;               
+                                       
+              }
+                .menu{
+                    margin-top: 15px;
+                    float: none;
+                    text-align: center;
+                }
+                li{
+                    float: none;
+                    padding: 15px;
+                    background-color: blue;
+                    margin-bottom: 5px;
+                    padding: 15px;
+                }
+
+
+            }
+    </style>
+</head>
+<body>
+    <div class="header">
+        
+        <div class="logo">
+           
+            Logo
+
+        </div>
+       <ul class="menu">
+           <li>Home</li>
+           <li>Cursos</li>
+           <li>Contato</li>
+           <li>Escritórios de planejamento</li>
+       </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+#paragrafo_especial{
+    background-image:url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;/*Sé o background não conseguir cobrir o elemento use essa propriedade para fazer o background cobir o elemento por todo*/
+    color:rgb(255, 143, 44);
+    /*background-position =  center --> faz com que a imagem do background fique centralizada*/
+    background-attachment: fixed;/*deixa a imagem fixa quando rolar a pagina , o background rolará  em seu interior tambem*/
+    /*background-attachment: local;---> a imagem vai rolar junto com elemento em que ela está*/
+
+}

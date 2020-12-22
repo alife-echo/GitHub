@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos flutuantes 2 </title>
+
+    <style type="text/css">
+      
+       #principal{
+         border: 1px inset goldenrod;
+         background-color: palevioletred;
+         
+      }
+ 
+    .conteudo{
+        width: 200px;
+        height: 200px;
+        border: 5px inset gray;
+        background-color: green;
+        float: left;
+        margin-left: 10px;
+        
+    }
+    
+    p{
+        border: 5px inset black;
+    }
+    
+    .clear{
+        clear: left; /*se você colocar divs com float ficara legal,mas sé colocar um paragrafo em baixo, a tag paragrafo entrara em colisão com as divs,pois as divs floats não existem no fluxo
+        normal do navegador,então procure em qual alinhamento(float) a div está,é no paragrafo coloque clear: é posição float da div. */
+       
+        
+        /*clear:left --> limpa o fluxo da esquerda*/
+        /*clear:right --> limpa o fluxo da direita*/
+        /*clear:both --> limpa o fluxo de ambos os lados*/
+        /*clear:none --> não limpre nenhum fluxo*/    
+    }
+
+      /*os as div quando estão em float  somem com uma div superior que engloba elas exemplo uma div principal,para não ocorrer isso crie uma div junto com as outras
+    mas não coloque nada,depois chame ela no css é insira a tag  clear:both; --> para limpar todo o fluxo de float é deixa que a div pai ou principal coloque suas caracteristicas
+      */
+
+
+    .clear2{
+ clear: both;
+    }
+    </style>
+</head>
+<body>
+
+    <div id = "principal">
+<div class="conteudo">
+    Conteudo 1
+</div>
+<div class="conteudo">
+    Conteudo 2
+</div>
+<div class="conteudo">
+    Conteudo 3
+</div>
+
+<div class="clear2">
+</div>
+
+<p>Sed vulputate lacinia lacus, vitae pulvinar sem sollicitudin hendrerit.</p>
+
+
+</div>
+<p class="clear">Sed vulputate lacinia lacus, vitae pulvinar sem sollicitudin hendrerit.
+    Mauris purus nulla, ultrices nec luctus a, aliquam id lectus. In hac habitasse platea dictumst.
+    Donec quis tempus ipsum, eu dignissim nisi.</p>
+</body>
+</html>

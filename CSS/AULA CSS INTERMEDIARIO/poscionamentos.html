@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style type="text/css">
+    body{
+        background: #007fc7;
+    }
+    #container{
+        background: #FFF;
+        width: 800px;
+        margin: 10px auto;
+        padding: 10px;
+       
+    }
+
+
+    
+
+    p{  
+        width: 300px;
+       
+    }
+
+    .relative{
+        border: 1px solid red;
+        position: relative;
+        left:  400px;
+        bottom: 200px;
+    }
+
+        /*position:static; ----> deixa a posição do elemento parado
+        positio:relative; ----> pode relativzar a posição do elemento
+        use a propriedade position relative depois complemente-a com 
+        top:; right:; bottom:; left:; 
+        exemplo está acima.
+        
+        */
+
+
+    </style>
+</head>
+<body>
+    <div id ="container">
+        <h1>Posicionamentos</h1>
+       
+        <p><strong>P1</strong>  amet, consectetur adipiscing elit.
+            Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+            Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+            Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+            In dapibus ut arcu quis venenatis.</p>
+
+            <p><strong>P2</strong> it amet, consectetur adipiscing elit.
+                Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                In dapibus ut arcu quis venenatis.</p>
+
+                <p class="relative"><strong>P3</strong>  it amet, consectetur adipiscing elit.
+                    Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                    Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                    Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                    In dapibus ut arcu quis venenatis.</p>
+
+                    <p><strong>P4</strong>   it amet, consectetur adipiscing elit.
+                        Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                        Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                        Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                        In dapibus ut arcu quis venenatis.</p>
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento</title>
+    <style type="text/css">
+    body{
+        background: #007fc7;
+    }
+    #container{
+        background: #FFF;
+        width: 800px;
+        margin: 10px auto;
+        padding: 10px;
+        position: relative;
+       
+    }
+
+
+    
+
+    p{  
+        width: 300px;
+       
+    }
+    .fixed{
+        position :fixed;
+        top: 0px;
+        right: 0px;
+     
+     background: #f2f2f2;
+     border: 1px solid red;
+    }
+    .relative{
+        border: 1px solid red;
+        position: relative;
+        left:  400px;
+        bottom: 200px;
+    }
+ .absolute{
+     position :absolute;
+     top:80px;
+     right:20px;
+     background: #f2f2f2;
+     border: 1px solid red;
+
+     /*o postion:absolute; ---> sera posicionado de acordo com a div em que ele está,sé a div for static ele ficara desalinhado porque ele ficara alinhado com o corpo do documento,
+     mas se a div que o engloba estíver em relativo ele estará de acordo com ela*/
+ }
+        /*position:static; ----> deixa a posição do elemento parado
+        positio:relative; ----> pode relativzar a posição do elemento
+        use a propriedade position relative depois complemente-a com 
+        top:; right:; bottom:; left:; 
+        exemplo está acima.
+
+        o deslocamento do objeto será segundo a sua posição inicial do container
+        
+        */
+
+
+    </style>
+</head>
+<body>
+    <div id ="container">
+        <h1>Posicionamentos</h1>
+       
+        <p><strong>P1</strong>  amet, consectetur adipiscing elit.
+            Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+            Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+            Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+            In dapibus ut arcu quis venenatis.</p>
+
+            <p class="fixed"><strong>P2</strong> it amet, consectetur adipiscing elit.
+                Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                In dapibus ut arcu quis venenatis.</p>
+
+                <p><strong>P3</strong>  it amet, consectetur adipiscing elit.
+                    Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                    Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                    Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                    In dapibus ut arcu quis venenatis.</p>
+
+                    <p><strong>P4</strong>   it amet, consectetur adipiscing elit.
+                        Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                        Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                        Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                        In dapibus ut arcu quis venenatis.</p>
+                        <p><strong>P4</strong>   it amet, consectetur adipiscing elit.
+                            Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                            Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                            Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                            In dapibus ut arcu quis venenatis.</p>
+                            <p><strong>P4</strong>   it amet, consectetur adipiscing elit.
+                                Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                                Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                                Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                                In dapibus ut arcu quis venenatis.</p>
+                                <p><strong>P4</strong>   it amet, consectetur adipiscing elit.
+                                    Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                                    Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                                    Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                                    In dapibus ut arcu quis venenatis.</p>
+                                    <p><strong>P4</strong>   it amet, consectetur adipiscing elit.
+                                        Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                                        Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                                        Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                                        In dapibus ut arcu quis venenatis.</p>
+                                        <p><strong>P4</strong>   it amet, consectetur adipiscing elit.
+                                            Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                                            Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                                            Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                                            In dapibus ut arcu quis venenatis.</p>
+                                            <p><strong>P4</strong>   it amet, consectetur adipiscing elit.
+                                                Vestibulum nunc purus, placerat vel augue at, sagittis lacinia ligula.
+                                                Donec a tortor eget nisi ultricies lacinia tempor ac ante.
+                                                Vivamus auctor, augue in interdum ornare, odio quam bibendum nunc, eu lobortis nibh sapien at est.
+                                                In dapibus ut arcu quis venenatis.</p>
+
+
+    </div>
+</body>
+</html>

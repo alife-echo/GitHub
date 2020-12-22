@@ -1,0 +1,45 @@
+
+.Conteudo{
+    /* padding = distancia interna da caixa div*/
+    /* padding-top: = distancia interna superior da caixa div*/
+    /* padding-right:  = distancia interna da direita da caixa div*/
+    /* padding-bottom:  = distancia interna inferior da caixa div*/
+    /* padding-left = distancia interna esquerda da caixa div*/
+    /*Ordem de padding : top,right,bottom,left*/  
+   
+   
+    border: 1px solid red;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 150px;
+
+
+    /*padding : 20px; ----> vai colocar um espaçamento de 20 pixeis de todos os lados da div*/
+    /*padding : 20px 5px; ----> vai colocar 20 pixeis de espaçamento interno entre o top  é o bottom é colocar 5px do lado direito é esquerdo de espaçamento interno.*/
+    
+    
+    
+    /*margin: distancia externa entre as divs ou elementos*/ 
+    /*margin-top: abre distancia entre as divs ou elementos de cima*/ 
+    /*margin-right: abre distancia entre as divs ou elementos da direita*/ 
+    /*margin-bottom: abre distancia externa entre as divs ou elementos de baixo*/ 
+    /*margin-left: abre uma distancia externa entre as divs ou elementos da esquerda*/ 
+    /*margin colapse = quando usar um margin entre as divs, a div que tiver o margin maior ganhará*/
+    
+
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:20px ;
+    margin-bottom:20px ;
+    
+
+}
+
+.Conteudo2{
+    margin-top: 10px;
+    width: 150px;
+    border: 1px solid red;
+
+}

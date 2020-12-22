@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizando_Formularios2</title>
+    <style>
+
+body{
+    font-family: "Trebuchet MS",Helvetica,sans-serif;
+    background:  url(../estilizando_formularios2/arquivos-necessarios-estilizando-formularios-parte2/fundo.jpg  ) no-repeat top center ;
+}
+
+#container{
+width: 400px;
+height: 300px;
+background-color:rgba(255, 255, 255, 0.3) ;
+border-radius: 10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+margin: 0 auto;
+margin-top: 120px;
+text-align: center;
+}
+
+#container img{
+    width: 120px;
+    height: 120px;
+    margin-top: -60px;
+    margin-bottom: 30px;
+}
+
+input{
+  height: 40px;
+  width: 80%;
+  font-size: 18px; 
+  margin-bottom: 10px;
+  background-color: #fff; 
+  border: transparent;
+  padding-left: 40px;
+  background-repeat: no-repeat;/*use para quando for colocar icones do lado dos inputs use tbm o background position*/
+  background-position: 10px;/* a imagem vai da esquerda para direita,no caso arrastei a imagem 10px da esquerda para direita dentro da caixa*/
+  cursor: pointer;
+
+}
+
+input.email{
+    background-image:url(../estilizando_formularios2/arquivos-necessarios-estilizando-formularios-parte2/icone-usuario.png);
+}
+
+input.senha{
+    background-image:url(../estilizando_formularios2/arquivos-necessarios-estilizando-formularios-parte2/icone-cadeado.png);
+}
+
+input.submit{
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;/*centralizar o texto*/
+    background: linear-gradient(to bottom,#faa600,#f68a00);
+}
+    </style>
+</head>
+
+
+<body>
+    
+<div id="container">
+<img src="../estilizando_formularios2/arquivos-necessarios-estilizando-formularios-parte2/perfil.png">
+
+<form>
+
+ <div>
+     <input class ="email"type="email" name="email" id="email" placeholder="Digite Seu Email:">
+ </div>
+
+ 
+ <div>
+    <input class="senha" type="password" name="senha" id="senha" placeholder="Digite Sua Senha:">
+</div>
+
+<div>
+    <input  class ="submit" type="submit" value="Logar">
+</div>
+
+
+
+</form>
+
+
+
+</div>
+
+
+
+
+</body>
+
+</html>

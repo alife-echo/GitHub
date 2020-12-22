@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+    width: 1400px;
+    height: 800px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.caixa_esquerda{
+  width: 480px;
+  height: 933px;
+  background-color:rgb(1, 121, 243);
+  padding: 0px;
+  
+  
+}
+.logo{
+  padding-top: 130px;
+  margin-left:150px;
+  margin-bottom: 50px;
+}
+
+.conteudo_perfil{
+ font-family: 'Roboto', sans-serif;
+ font-size: 23px;
+ line-height: 31px;
+ width: 340px;
+ height: 93px;
+ color: white;
+ margin: auto;
+ text-align: left;
+ margin-bottom: 40px;
+}
+strong{
+    font-weight:400;
+    font-weight: bold;
+}
+
+.conteudo_final{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    width: 340px;
+    height: 93px;
+    color: white;
+    margin: auto;
+    text-align: left;
+}
+
+.caixa_imagem{
+   margin-left: 40px;
+}
+
+
+
+.login{
+ width: 490px;
+ height: 624px;
+ 
+ float:right;
+ margin-top: 150px;
+}
+
+.titulo{
+   width: 490px;
+   height: 30px;
+}
+.conteudo_titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.botao1{
+    width: 490px;
+    height: 56px;
+    color:white;
+    background-color: #0179F3;
+    border-radius: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 50px;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent; /*-----> essa propriedade é importante*/
+    white-space: nowrap;
+    margin-top: 20px;
+}
+
+.botao1:hover{
+  background-color: #0160C0;
+  transition: background-color 0.40s, border-color 0.1s;
+}
+
+
+.titulo2{
+    width: 490px;
+    height: 30px;
+    margin-top: 35px;
+ }
+
+ 
+
+.entrada{
+    margin-top: 15px;
+    width: 480px;
+    height: 56px;
+    border-radius: 16px;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid #E9E9E9; /*-----> essa propriedade é importante*/
+    white-space: nowrap;
+    background-color: #E9E9E9;
+    text-decoration: none;
+    overflow: hidden;
+    outline: 0; /*Importante para tirar a moldura ao redo da entrada de texto*/
+}
+
+.senha{
+    margin-top: 25px;
+}
