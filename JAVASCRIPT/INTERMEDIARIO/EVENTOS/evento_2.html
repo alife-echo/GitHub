@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        img {
+            width: 200px;
+            margin-bottom: 25px;
+
+        }
+
+        div {
+            display: inline;
+            padding: 10px;
+            font-size: 30px;
+            background-color: rgb(190, 205, 233);
+            color: aliceblue;
+            
+        }
+    </style>
+    <script>
+function onOver(elemento){
+    elemento.style.backgroundColor = 'red';
+    elemento.style.fontFamily = 'Roboto';
+}
+function onOut(elemento){
+    elemento.style.backgroundColor = 'cornflowerblue';
+    elemento.style.fontFamily = 'Arial';
+}
+function clicar(elemento){
+    elemento.style.backgroundColor = 'black';
+}
+    </script>
+</head>
+
+<body onload="console.log('Pagina completamente carregada')">
+    <!--  onload =evento que é exucatado quando a pagina estiver toda carregada -->
+    <img src="img_controle.jpg">
+    <br>
+    <div onmouseover="onOver(this)" onmouseout="onOut(this)" onclick="clicar(this)">Click</div>
+    
+    <!-- onmouseover = quando mouse passar em cima de um elemento
+    onmoseout = quando mouse sair de um elemento -->
+
+</body>
+
+</html>

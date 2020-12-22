@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+   <script>
+
+
+    function loaded(){
+    let t = document.getElementById("titulo");
+    //t.onclick = mudarTexto; Maneira de adcionar um evento atraves do javascript
+    t.addEventListener("mouseover",mudarTexto);// 2 maneira de adicionar elemento atraves do javascript
+    t.addEventListener("mouseout",texto_fora);// 2 maneira de adicionar elemento atraves do javascript
+    }
+
+    function mudarTexto(){ //maneira de adicionar um evento atraves do javascript
+        this.innerHTML = "Novo Texto";
+    }
+    function texto_fora(){
+        this.innerHTML = "Mouse fora do elemento";
+    }
+
+
+
+</script>
+</head>
+<body onload="loaded()">
+    <h1 id="titulo">Teste</h1>
+
+
+  
+</body>
+</html>

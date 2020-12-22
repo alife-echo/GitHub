@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+ <!--    <script>
+
+        function h1click(){
+            console.log("Executando função")
+        }
+
+    </script> -->
+
+<script>
+
+    /* function changeH1(input){
+        
+        let h1 = document.getElementsByTagName("h1")[0]
+        h1.innerText = input.value;
+        valor do h1 sera igual ao valor digitado no input
+    } */
+
+
+
+
+
+
+  /*   function hideH1(){
+        let h1 = document.getElementsByTagName("h1")[0]
+        h1.style.display = "none";
+      /*   h1 quando clicado ira sumir  }*/
+   
+
+   /*  function hide(){
+        
+        let input1 = document.body.getElementsByClassName("um")[0];
+        let h1 = document.getElementsByTagName("h1")[0]
+        h1.style.display = "none";
+        input1.style.display ="none";
+
+    }
+ */ 
+
+ /* function clicar(input){
+    let h1 = document.getElementsByTagName("h1")[0]
+    h1.innerText = "Preencha o formulario primeiro";
+ } */
+
+
+/* ------------------------------------------------------------ */
+
+
+
+ function changeH1(input){
+     let h1 = document.getElementsByTagName("p")[0]
+     h1.innerText = input.value;
+ }
+
+function sumir(){
+    let caixa = document.getElementsByClassName("um")[0];
+    caixa.style.display = 'none';
+}
+
+
+
+
+
+
+
+</script>
+<style>
+ /*    div{
+        display: inline-block;
+        padding: 20px;
+        font-size: 2rem;
+        background-color:cornflowerblue ;
+        color: aliceblue;
+
+    }*/
+    .um{
+        display: inline-block;
+        padding: 20px;
+        font-size: 2rem;
+        background-color:cornflowerblue ;
+        color: aliceblue;
+
+    } 
+    </style>
+</head>
+<body>
+    <!--<h1 onclick="console.log('H1 FOI CLICADO')">Clique em mim</h1>-->
+    <!--MAIS MOSTRAR NO CONSOLE QUANTAS VEZ O H1 FOI CLICADO CONFORME EU CLICAR NO H1-->
+
+    <!--   <h1 onclick="h1click()">Clique em mim</h1> -->
+    <!--  criou uma função que imprime quando clicado o executando função -->
+
+    <!-- <h1 onclick="this.style.color = 'red'">Clique em mim</h1> -->
+    <!-- this nesse caso é o propio elemento,então ele atribou this com um cor red porque o this e o proprio elemeneto nesse caso ele significado o h1 -->
+    
+    <!-- <h1>Clique em mim</h1>
+    <input id="texto" type="text" onchange="changeH1(this)"> -->
+    <!-- onchange = ocorre quando algum elemento perde o foco, foco = clicado
+    oninput = atualiza é mostra na tela o que eu estou escrevendo em meu input ao mesmo tempo -->
+
+
+
+
+
+    <!-- <h1>clique em mim</h1>
+
+    <div onclick="hideH1()" class="um">Click</div>
+
+    <div onclick="hide()">Click2</div> -->
+
+    
+    <!-- <h1>Digite no campo especificado</h1>
+
+    <input type="text" onchange="clicar(this)"> -->
+
+
+
+
+   <!--  <h1 onclick="console.log('h1 foi clicado')">clique em mim</h1> -->
+    
+    <!-- <h1 onclick="this.style.color='yellow'">Clique em mim</h1> -->
+
+
+    <p>Clique em mim</p>
+    <input id = "texto" type="text" onchange="changeH1(this)">
+     
+
+  <div onclick="sumir()" class="um">
+
+  </div>
+</body>
+</html> 
+
+
+
+
+<!-- metodos aprendidos oninput() = metodo que escreve ao mesmo tempo em que digito no input 
+onclick() = ocorre quando algo é clicado
+onchange() = ocorre quando um elemento perde o foco, foco = ausencia do clique do mouse -->
+

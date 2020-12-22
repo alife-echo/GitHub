@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, "Trebuchet MS", sans-serif;
+	background: #fff url(../site_chale_da_cidade/imagens/bg.png);
+	margin: 15px;
+}
+
+#container{
+   
+    margin: 0 auto;
+	min-width: 740px;
+    max-width: 1180px;
+  
+}
+
+.area_logo{
+    width: 870px;
+    height: 250px;
+    background: url(../site_chale_da_cidade/imagens/topo-imagem-principal.png) no-repeat;
+    position: relative;
+    top: 0px;
+    left: 20px;
+    bottom: 15px;
+}
+
+.link_titulo{
+    background: url(../site_chale_da_cidade/imagens/logo.png) no-repeat;
+    text-decoration: none;
+    position:absolute;
+    top: 18px;
+    
+    z-index: 3;
+    width: 151px;
+    height: 66px;
+}
+
+.area_menu{
+    width: 450px;
+    height: 250px;
+    background: url(../site_chale_da_cidade/imagens/topo-imagem-lateral.png);
+    position: absolute;
+    top:15px;
+    z-index: 2;
+    top: 10;
+    right: 0;
+    right: 75px;
+}
+
+.caixa_conteudo_principal{
+    width: 99%;
+    height: 400px;
+
+    margin-left: 20px;
+    margin-top: 0px;
+    background: url(../site_chale_da_cidade/imagens/bg-container.png)  center top;
+}
+
+.conteudo_caixa_esquerda{
+    width: 50%;
+    float: left;
+    background: url(../site_chale_da_cidade/imagens/bg-area-principal.png) top left repeat-x;
+
+}
+.titulo_conteudo_esquerdo{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+.texto_esquerdo{
+    margin-top: 4px;
+    padding: 10px;
+}
+
+.conteudo_caixa_direita{
+    width: 50%;
+    float: right;
+    background: url(../site_chale_da_cidade/imagens/bg-area-lateral.png) top left repeat-x;
+}
+.apartamento_img{
+    float: left;
+    margin-left: 10xp;
+}
+
+.conteudo_caixa_direita ul{
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 23px;
+}
+
+.conteudo_caixa_direita ul li a{
+    text-decoration: none;
+}
+
+
+#beneficios li {
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+	height: 6em;
+}
+
+#beneficios li a img {
+	float: left;
+	margin-right: 8px;
+}
+
+#beneficios li a p {
+	color: #000;
+	font-size: 0.8em;
+}
+
+#beneficios li a h3 {
+	font-size: 1em;
+	color: #615b2d;
+	padding: 5px 0;
+	background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#beneficios li:hover {
+	background: #f6f3d6;
+	cursor: pointer;
+}

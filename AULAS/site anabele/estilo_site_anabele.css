@@ -1,0 +1,67 @@
+body{
+    background-image: url(../site\ anabele/fundo.png);
+}
+#principal{
+    width: 900px;
+}
+#menu{
+
+    background-color: #c5c5b2;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;  
+} 
+a{
+   
+    text-decoration: none;
+    color: #4b566a;
+    font-weight: bold;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#caixa_sobre_anabele4{
+    background-color: aliceblue;
+    width: 900px;
+    height: 700px;
+}
+#caixa_sobre_anabele3{
+    background-color: aliceblue;
+    width: 900px;
+    height: 1700px;
+    
+    
+}#caixa_sobre_anabele2{
+    background-color: aliceblue;
+    width: 900px;
+    height: 250px;
+    
+    
+}
+
+#caixa_sobre_anabele1{
+    background-color: aliceblue;
+    width: 900px;
+    height: 250px;
+    
+    
+}
+#conteudo_anabele{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#rodape{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#a{
+    font-family: 'Roboto', sans-serif;
+    color: #26de81;
+    padding: 7px;
+}
+
+.borda_foto1{
+    border: 10px inset #fab1a0;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MEU SITE</title>
+</head>
+
+<body>
+    <h2>LOGIN</h2>
+
+        <!--form action = "processa.php"    - ">">action mostra para onde o usuario vai      -->
+        <form>
+            <!--Tag para criar um formularios-->
+            Login:<br>
+            <input type=" text" name="Login"><br>
+            <!--cria um entrada do tipo texto e coloca seu nome de login-->
+            Senha:<br>
+            <input type="password" name="Senha"><br>
+            <!--cria um entrada do tipo senha e coloca seu nome de senha-->
+            <br>
+            <input type="submit" value="Logar">
+            <!--cria um entrada do tipo submit(enviar) texto e coloca seu nome(value) de LOGAR-->
+
+        </form>
+
+        <form>
+            <h2>Cadastre-se</h2>
+            login:<br>
+            <input type="text" name="login"><br>
+            <br>
+            sexo:<br>
+
+            <input type="radio" name="sexo" value="M">Masculino<br>  <!--cria uma entrada com tipo radio(marca altenativas) como name sexo, é com o value(nome de exibição ou para requisitar) M-->
+            <input type="radio" name="sexo" value="F">Feminino<br><br> <!--cria uma entrada com tipo radio(marca apenas uma altenativa) como name sexo, é com o value(nome de exibição ou para requisitar) F-->
+            Interesses<br>
+            <input type="checkbox" name="Interesses"> Futebol<br> <!--cria uma entrada com tipo checkbox(marca altenativa,mas podendo marca mais que uma alternativa com name "Interesses" com a exbição do nome futebol)-->
+            <input type="checkbox" name="Interesses"> Cursos<br> <!--cria uma entrada com tipo checkbox(marca altenativa,mas podendo marca mais que uma alternativa com name "Interesses" com a exbição do nome cursos)-->
+            <input type="checkbox" name="Interesses"> Modas<br><!--cria uma entrada com tipo checkbox(marca altenativa,mas podendo marca mais que uma alternativa com name "Interesses" com a exbição do nome modas)-->
+            <br>
+
+            Estado<br>
+            <select name="estado">  <!--cria um ambiente de seleção de dados com  nome estado-->
+                <option value="sp">SP</option><!--opções dentro do ambiente de selecão de dados  com value(nome de exibição ou para requisitar) chamado sp é exibindo a opção de estado chamado SP--> 
+                <option value="mg">MG</option><!--opções dentro do ambiente de selecão de dados  com value(nome de exibição ou para requisitar) chamado mg é exibindo a opção de estado chamado MG--> 
+                <option value="rj">RJ</option><!--opções dentro do ambiente de selecão de dados  com value(nome de exibição ou para requisitar) chamado rj é exibindo a opção de estado chamado RJ--> 
+                <option value="rs">RS</option><!--opções dentro do ambiente de selecão de dados  com value(nome de exibição ou para requisitar) chamado rs é exibindo a opção de estado chamado RS--> 
+                <option value="pa">PA</option><!--opções dentro do ambiente de selecão de dados  com value(nome de exibição ou para requisitar) chamado pa é exibindo a opção de estado chamado PA--> 
+            </select>
+            <br>
+            <br>
+
+            Observações:<br>
+            <textarea></textarea> <!--cria um bloco de notas para o usuario escrever-->
+            <br>
+            <input type="submit" value="Cadastrar">  <!--cria um botão de envio(submit) com a exbição(value) chamado Cadastrar-->
+            
+            <!--Todas essas entradas so podem ser enviadas sé vocÊ englobalas com a tag form-->
+
+        </form>
+        
+</body>
+
+</html>

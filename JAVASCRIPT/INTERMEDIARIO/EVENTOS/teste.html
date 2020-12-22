@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>
+    <h1 id="t1">titulo-1</h1>
+    <h2 id="t2">outro titulo</h2>
+
+
+
+
+    <script>
+
+    
+        let t1 = document.getElementById("t1");
+        let t2 = document.getElementById("t2");
+
+       //t1.onmouseover = textoMaiusculo;
+       //t2.onmouseover = textoMaiusculo;
+
+       t1.addEventListener("mouseover",textoMaiusculo)
+       t2.addEventListener("mouseover",textoMaiusculo)
+       t1.addEventListener("mouseout",textoMinusculo)
+       t2.addEventListener("mouseout",textoMinusculo)
+
+        function textoMaiusculo(){
+            this.innerHTML = this.innerHTML.toUpperCase();
+        }
+
+        function textoMinusculo(){
+            this.innerHTML = this.innerHTML.toLowerCase();
+        }
+      
+    
+    </script>
+</body>
+</html>
